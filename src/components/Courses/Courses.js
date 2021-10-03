@@ -10,8 +10,8 @@ const Courses = () => {
             .then(data => setAllCourses(data));
     }, []);
     return (
-        <Container>
-            <h3>Here is Our All Course</h3>
+        <Container className="pt-4 pb-3">
+            <h3 className="pb-2">Here is Our All Course</h3>
             <div style={{ 'display': 'grid', 'gridTemplateColumns': 'repeat(3, 1fr)', 'gridGap': '15px' }}>
                 {
                     allCourses.map(course => <SingleCourse course={course} key={course.key}></SingleCourse>)

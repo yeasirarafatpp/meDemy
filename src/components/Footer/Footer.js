@@ -2,9 +2,10 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div style={{ 'display': 'flex', 'justifyContent': 'space-between' }}>
+        <div className="pt-2 bg-light d-flex justify-content-around">
             <h5>MeDemy</h5>
-            <p>&copy; Copyright 2021 MeDemy</p>
+            <p>All Right Reserved</p>
+            <p>&copy; 2021 MeDemy</p>
         </div>
     );
 };

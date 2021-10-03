@@ -12,17 +12,17 @@ const Home = () => {
     }, []);
     return (
         <Container>
-            <div className="pt-5 pb-5" style={{ 'display': 'flex', 'align-items': 'center' }}>
+            <div className="pt-5 pb-5 d-flex align-items-center">
                 <div>
                     <img src="https://i.ibb.co/mHMPFrX/instructor.jpg" alt="instructor" />
                 </div>
-                <div style={{ 'marginLeft': '35px' }}>
+                <div className="ms-5">
                     <h2>Always something new to learn</h2>
                     <p>With courses added regularly to our catalog, you always get the latest skills. Courses from $8 through tomorrow.</p>
                 </div>
             </div>
             <h3>Our Best Selling Course</h3>
-            <div style={{ 'display': 'flex' }}>
+            <div className="d-flex">
                 {
                     courses.map(course => <SingleCourse key={course.key} course={course}></SingleCourse>)
                 }
