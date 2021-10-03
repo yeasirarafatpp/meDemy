@@ -4,7 +4,7 @@ import { useHistory } from 'react-router';
 const About = () => {
     let back = useHistory();
     const coursePage = () => {
-        back.push('/home');
+        back.push('/courses');
     }
     return (
         <div className="container pt-3 pb-3">
