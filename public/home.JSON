@@ -1,0 +1,34 @@
+[
+    {
+        "key": 1,
+        "name": "2021 Complete Python Bootcamp From Zero to Hero",
+        "trainer": "Jose Portilla",
+        "enrolled": 383000,
+        "price": 15,
+        "img": "https://i.ibb.co/k09GddX/1.jpg"
+    },
+    {
+        "key": 2,
+        "name": "Machine Learning A-Z™: Hands-On Python",
+        "trainer": "Kirill Eremenko",
+        "enrolled": 123000,
+        "price": 18,
+        "img": "https://i.ibb.co/V3QNh6n/2.jpg"
+    },
+    {
+        "key": 3,
+        "name": "Python for Data Science and Machine Learning Bootcamp",
+        "trainer": "Jose Portilla",
+        "enrolled": 203000,
+        "price": 22,
+        "img": "https://i.ibb.co/7GCXTP4/3.jpg"
+    },
+    {
+        "key": 4,
+        "name": "Learn Python Programming Masterclass",
+        "trainer": "Tim Buchalka",
+        "enrolled": 223000,
+        "price": 15,
+        "img": "https://i.ibb.co/T8GH3Qn/4.jpg"
+    }
+]
