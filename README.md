@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Welcome To MeDemy Website
+* You can choose your necessary course
+* We have the best trainer
+* Our course video has lifetime access
+* All class video are pre-recorded
+* All Course are beginner friendly  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
